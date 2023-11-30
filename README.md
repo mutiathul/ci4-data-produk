@@ -78,6 +78,9 @@ jika tidak seperti diatas maka relasi tabel tidak bisa dibuat.
 
   ![relasi](https://github.com/mutiathul/ci4-data-produk/assets/60602195/acb38823-f1fe-44f7-acea-74448aace43d)
 
+  - produk_kategori_id_foreign merupakan relasi antara tabel produk dan tabel kategori
+  - produk_status_id_foreign merupakan relasi antara tabel produk dan tabel status
+
 - Tabel Migration
   DIbawah ini adalah tahapan migration yang dilakukan
   - yang pertama migration tabel kategori
