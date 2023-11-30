@@ -103,3 +103,12 @@ jika tidak seperti diatas maka relasi tabel tidak bisa dibuat.
   
   php spark db:seed ProdukSeeder
 
+# Tampilan Final Data Produk
+
+- yang ditampilkan hanya produk dengan status yang bisa dijual
+
+![hasil](https://github.com/mutiathul/ci4-data-produk/assets/60602195/4afc789d-db44-489b-b028-4ae4c13c62d2)
+
+
+
+
