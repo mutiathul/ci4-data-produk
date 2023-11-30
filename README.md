@@ -6,11 +6,17 @@
 
 # Database Config
  database.default.hostname = localhost
+ 
  database.default.database = ci-test
+ 
  database.default.username = root
+ 
  database.default.password = 
+ 
  database.default.DBDriver = MySQLi
+ 
  database.default.DBPrefix =
+ 
  database.default.port = 3306
 
 # menambahkan table pada database
@@ -26,9 +32,14 @@ jika tidak seperti diatas maka relasi tabel tidak bisa dibuat.
 
 # menambahkan data pada table
 - menambahkan data tabel kategori
-php spark db:seed KategoriSeeder
+  
+  php spark db:seed KategoriSeeder
+  
 - menambahkan data tabel Status
-php spark db:seed StatusSeeder
+
+  php spark db:seed StatusSeeder
+  
 - menambahkan data tabel Produk
-php spark db:seed ProdukSeeder
+  
+  php spark db:seed ProdukSeeder
 
